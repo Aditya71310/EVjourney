@@ -1,0 +1,6 @@
+{
+  "name": "EV Journey",
+  "description": "Electric vehicle road trip journaling platform to document routes, charging stops, battery telemetry, and travel photographs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

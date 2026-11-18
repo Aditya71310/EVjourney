@@ -1,0 +1,765 @@
+{
+  "users": [
+    {
+      "name": "Aarav Kulkarni",
+      "username": "aarav_ev",
+      "email": "demo@evjourney.app",
+      "password": "$2b$10$P02GcrXaDzfRtxrtWLbL9epMNJAcJe4cMmaDvH2N9YQsm8uS.mkoS",
+      "avatar": "",
+      "bio": "Long-distance electric tourer exploring mountain passes, coastal highways, and fast-charging corridors across Western India.",
+      "city": "Mumbai",
+      "country": "India",
+      "theme": "dark",
+      "onboardingCompleted": true,
+      "_id": "6afc960de00ff617d3db3e65",
+      "createdAt": "2026-11-17T17:59:41.493Z"
+    },
+    {
+      "name": "Aditya Lulla",
+      "username": "shadow",
+      "email": "2024.aditya.lulla@ves.ac.in",
+      "password": "$2b$10$9g9PYXDYga7cRI4ySNdmQODDAUw1BQW3V/oQXlxutslpgn7qIa6wi",
+      "avatar": "",
+      "bio": "",
+      "city": "mumbai",
+      "country": "India",
+      "theme": "dark",
+      "onboardingCompleted": true,
+      "_id": "6afc965417c4f28917c629eb",
+      "createdAt": "2026-11-17T18:00:52.810Z"
+    },
+    {
+      "coverScene": "sunset",
+      "name": "Aanya Verma",
+      "username": "aanya",
+      "email": "aanya@evjourney.app",
+      "password": "$2b$10$uyZtU3wo5rCamxRMGkMuEOVnukBvzKxvfhscBJDHwbHR/UN8JTU0S",
+      "avatar": "",
+      "bio": "Reviewer at @evhustle · weekend mountain wanderer · driving an MG ZS EV.",
+      "city": "Bangalore",
+      "country": "India",
+      "theme": "dark",
+      "onboardingCompleted": true,
+      "_id": "6afc99a4545c1f60095a3cd8",
+      "createdAt": "2026-11-17T18:15:00.408Z"
+    },
+    {
+      "coverScene": "coast",
+      "name": "Ravi Mishra",
+      "username": "ravi_evlog",
+      "email": "ravi@evjourney.app",
+      "password": "$2b$10$uyZtU3wo5rCamxRMGkMuEOVnukBvzKxvfhscBJDHwbHR/UN8JTU0S",
+      "avatar": "",
+      "bio": "EV YouTuber documenting western ghats charging corridors · Pune.",
+      "city": "Pune",
+      "country": "India",
+      "theme": "dark",
+      "onboardingCompleted": true,
+      "_id": "6afc99a4545c1f60095a3cd9",
+      "createdAt": "2026-11-17T18:15:00.409Z"
+    },
+    {
+      "coverScene": "forest",
+      "name": "Priya Nair",
+      "username": "priyaonroad",
+      "email": "priya@evjourney.app",
+      "password": "$2b$10$uyZtU3wo5rCamxRMGkMuEOVnukBvzKxvfhscBJDHwbHR/UN8JTU0S",
+      "avatar": "",
+      "bio": "Weekend driver · Coorg & Western Ghats coffee estate trails.",
+      "city": "Bangalore",
+      "country": "India",
+      "theme": "dark",
+      "onboardingCompleted": true,
+      "_id": "6afc99a4545c1f60095a3cda",
+      "createdAt": "2026-11-17T18:15:00.409Z"
+    },
+    {
+      "coverScene": "coast",
+      "name": "Karthik S",
+      "username": "kart_ev",
+      "email": "karthik@evjourney.app",
+      "password": "$2b$10$uyZtU3wo5rCamxRMGkMuEOVnukBvzKxvfhscBJDHwbHR/UN8JTU0S",
+      "avatar": "",
+      "bio": "Tesla Model 3 · Coastal highway dawn drives from Chennai.",
+      "city": "Chennai",
+      "country": "India",
+      "theme": "dark",
+      "onboardingCompleted": true,
+      "_id": "6afc99a4545c1f60095a3cdb",
+      "createdAt": "2026-11-17T18:15:00.409Z"
+    },
+    {
+      "coverScene": "sunset",
+      "name": "Sanjay Iyer",
+      "username": "sanjayev",
+      "email": "sanjay@evjourney.app",
+      "password": "$2b$10$uyZtU3wo5rCamxRMGkMuEOVnukBvzKxvfhscBJDHwbHR/UN8JTU0S",
+      "avatar": "",
+      "bio": "Long-distance grand touring · Hyderabad.",
+      "city": "Hyderabad",
+      "country": "India",
+      "theme": "dark",
+      "onboardingCompleted": true,
+      "_id": "6afc99a4545c1f60095a3cdc",
+      "createdAt": "2026-11-17T18:15:00.410Z"
+    },
+    {
+      "coverScene": "coast",
+      "name": "Meera Joshi",
+      "username": "meeraj",
+      "email": "meera@evjourney.app",
+      "password": "$2b$10$uyZtU3wo5rCamxRMGkMuEOVnukBvzKxvfhscBJDHwbHR/UN8JTU0S",
+      "avatar": "",
+      "bio": "Coastal trips · Mumbai.",
+      "city": "Mumbai",
+      "country": "India",
+      "theme": "dark",
+      "onboardingCompleted": true,
+      "_id": "6afc99a4545c1f60095a3cdd",
+      "createdAt": "2026-11-17T18:15:00.410Z"
+    }
+  ],
+  "vehicles": [
+    {
+      "userId": "6afc960de00ff617d3db3e65",
+      "brand": "Audi",
+      "model": "Q8 e-tron",
+      "variant": "55 Quattro",
+      "batteryCapacity": 114,
+      "colour": "Chronos Matte Charcoal",
+      "nickname": "Nightrunner",
+      "photo": "/src/assets/images/ev_suv_garage_1794937948402.jpg",
+      "isDefault": true,
+      "_id": "6afc960de00ff617d3db3e66",
+      "createdAt": "2026-11-17T17:59:41.494Z"
+    },
+    {
+      "userId": "6afc960de00ff617d3db3e65",
+      "brand": "Hyundai",
+      "model": "IONIQ 6",
+      "variant": "Long Range AWD",
+      "batteryCapacity": 77.4,
+      "colour": "Nocturne Silver",
+      "nickname": "Aero Stream",
+      "photo": "/src/assets/images/ev_sedan_garage_1794937949633.jpg",
+      "isDefault": false,
+      "_id": "6afc960de00ff617d3db3e67",
+      "createdAt": "2026-11-17T17:59:41.494Z"
+    },
+    {
+      "userId": "6afc965417c4f28917c629eb",
+      "brand": "bmw",
+      "model": "m3",
+      "variant": "empowered",
+      "batteryCapacity": 45,
+      "colour": "Obsidian Black",
+      "nickname": "shadow onyx",
+      "photo": "/src/assets/images/ev_suv_garage_1794937948402.jpg",
+      "isDefault": true,
+      "_id": "6afc967c17c4f28917c629ec",
+      "createdAt": "2026-11-17T18:01:32.159Z"
+    },
+    {
+      "userId": "6afc99a4545c1f60095a3cd8",
+      "brand": "MG",
+      "model": "ZS EV",
+      "variant": "Exclusive Pro",
+      "batteryCapacity": 50.3,
+      "colour": "Glaze Red",
+      "nickname": "Highlander",
+      "photo": "/src/assets/images/ev_suv_garage_1794937948402.jpg",
+      "isDefault": true,
+      "_id": "6afc99a4545c1f60095a3cde",
+      "createdAt": "2026-11-17T18:15:00.411Z"
+    },
+    {
+      "userId": "6afc99a4545c1f60095a3cd9",
+      "brand": "Tata",
+      "model": "Nexon.ev",
+      "variant": "45 kWh Empowered+",
+      "batteryCapacity": 45,
+      "colour": "Daytona Grey",
+      "nickname": "Sahyadri",
+      "photo": "/src/assets/images/ev_suv_garage_1794937948402.jpg",
+      "isDefault": true,
+      "_id": "6afc99a4545c1f60095a3cdf",
+      "createdAt": "2026-11-17T18:15:00.411Z"
+    },
+    {
+      "userId": "6afc99a4545c1f60095a3cda",
+      "brand": "Hyundai",
+      "model": "IONIQ 5",
+      "variant": "RWD Long Range",
+      "batteryCapacity": 72.6,
+      "colour": "Gravity Gold",
+      "nickname": "Estate Runner",
+      "photo": "/src/assets/images/ev_sedan_garage_1794937949633.jpg",
+      "isDefault": true,
+      "_id": "6afc99a4545c1f60095a3ce0",
+      "createdAt": "2026-11-17T18:15:00.412Z"
+    },
+    {
+      "userId": "6afc99a4545c1f60095a3cdb",
+      "brand": "Tesla",
+      "model": "Model 3",
+      "variant": "Long Range AWD",
+      "batteryCapacity": 75,
+      "colour": "Stealth Grey",
+      "nickname": "Dawnbreaker",
+      "photo": "/src/assets/images/ev_sedan_garage_1794937949633.jpg",
+      "isDefault": true,
+      "_id": "6afc99a4545c1f60095a3ce1",
+      "createdAt": "2026-11-17T18:15:00.412Z"
+    }
+  ],
+  "journeys": [
+    {
+      "userId": "6afc960de00ff617d3db3e65",
+      "vehicleId": "6afc960de00ff617d3db3e66",
+      "title": "Sahyadri Monsoon Ridge Crossing",
+      "description": "An early-morning climb from Mumbai across the Western Ghats through Lonavala and Panchgani to Mahabaleshwar, testing regenerative braking on mist-covered switchbacks.",
+      "coverImage": "/src/assets/images/journey_mountain_pass_1794937948869.jpg",
+      "startDate": "2026-09-12T05:45:00.000Z",
+      "endDate": "2026-09-13T18:30:00.000Z",
+      "startLocation": "Bandra Kurla Complex, Mumbai",
+      "endLocation": "Arthur Seat Point, Mahabaleshwar",
+      "distanceKm": 274,
+      "durationMinutes": 390,
+      "startSOC": 94,
+      "endSOC": 58,
+      "visibility": "Public",
+      "status": "Published",
+      "_id": "6afc960de00ff617d3db3e68",
+      "createdAt": "2026-11-17T17:59:41.495Z"
+    },
+    {
+      "userId": "6afc960de00ff617d3db3e65",
+      "vehicleId": "6afc960de00ff617d3db3e67",
+      "title": "Konkan Coastal Highway Run",
+      "description": "Two-day grand touring loop hugging the Arabian Sea cliff roads from Alibaug down to Ratnagiri with two ultra-rapid DC stops.",
+      "coverImage": "/src/assets/images/journey_coastal_overlook_1794937948348.jpg",
+      "startDate": "2026-10-04T06:15:00.000Z",
+      "endDate": "2026-10-05T19:45:00.000Z",
+      "startLocation": "Mandwa Jetty Road, Alibaug",
+      "endLocation": "Ratnadurg Fort Overlook, Ratnagiri",
+      "distanceKm": 342,
+      "durationMinutes": 465,
+      "startSOC": 98,
+      "endSOC": 41,
+      "visibility": "Public",
+      "status": "Published",
+      "_id": "6afc960de00ff617d3db3e6f",
+      "createdAt": "2026-11-17T17:59:41.497Z"
+    },
+    {
+      "userId": "6afc99a4545c1f60095a3cd8",
+      "vehicleId": "6afc99a4545c1f60095a3cde",
+      "title": "Spiti in a hatchback",
+      "description": "Crossing Kunzum La and Key Monastery in cold mountain air with careful regeneration planning across four high-altitude stops.",
+      "coverImage": "/src/assets/images/journey_mountain_pass_1794937948869.jpg",
+      "startDate": "2026-11-16T05:30:00.000Z",
+      "endDate": "2026-11-17T16:10:00.000Z",
+      "startLocation": "Manali",
+      "endLocation": "Kaza",
+      "distanceKm": 412,
+      "durationMinutes": 540,
+      "startSOC": 96,
+      "endSOC": 28,
+      "visibility": "Public",
+      "status": "Published",
+      "_id": "6afc99a4545c1f60095a3ce2",
+      "createdAt": "2026-11-17T18:15:00.413Z"
+    },
+    {
+      "userId": "6afc99a4545c1f60095a3cd9",
+      "vehicleId": "6afc99a4545c1f60095a3cdf",
+      "title": "Konkan in the monsoon",
+      "description": "Rain-slicked ghats from Pune through Tamhini down to Ganpatipule with dependable Tata Power stops.",
+      "coverImage": "/src/assets/images/journey_coastal_overlook_1794937948348.jpg",
+      "startDate": "2026-11-15T06:00:00.000Z",
+      "endDate": "2026-11-15T15:40:00.000Z",
+      "startLocation": "Pune",
+      "endLocation": "Ganpatipule",
+      "distanceKm": 248,
+      "durationMinutes": 355,
+      "startSOC": 95,
+      "endSOC": 38,
+      "visibility": "Public",
+      "status": "Published",
+      "_id": "6afc99a4545c1f60095a3ce8",
+      "createdAt": "2026-11-17T18:15:00.416Z"
+    },
+    {
+      "userId": "6afc99a4545c1f60095a3cda",
+      "vehicleId": "6afc99a4545c1f60095a3ce0",
+      "title": "Coorg coffee crawl",
+      "description": "Shaded estate roads from Bangalore to Madikeri with two espresso stops and an effortless DC top-up at Mysore.",
+      "coverImage": "/src/assets/images/hero_ev_roadtrip_1794937947563.jpg",
+      "startDate": "2026-11-14T06:30:00.000Z",
+      "endDate": "2026-11-14T16:00:00.000Z",
+      "startLocation": "Bangalore",
+      "endLocation": "Madikeri",
+      "distanceKm": 268,
+      "durationMinutes": 310,
+      "startSOC": 92,
+      "endSOC": 44,
+      "visibility": "Public",
+      "status": "Published",
+      "_id": "6afc99a4545c1f60095a3ce9",
+      "createdAt": "2026-11-17T18:15:00.416Z"
+    },
+    {
+      "userId": "6afc99a4545c1f60095a3cdb",
+      "vehicleId": "6afc99a4545c1f60095a3ce1",
+      "title": "Ooty ridge at dawn",
+      "description": "565 km grand tour from Chennai sea level up 36 hairpin bends into the Nilgiris.",
+      "coverImage": "/src/assets/images/journey_mountain_pass_1794937948869.jpg",
+      "startDate": "2026-11-13T04:15:00.000Z",
+      "endDate": "2026-11-13T18:20:00.000Z",
+      "startLocation": "Chennai",
+      "endLocation": "Ooty",
+      "distanceKm": 565,
+      "durationMinutes": 610,
+      "startSOC": 99,
+      "endSOC": 31,
+      "visibility": "Public",
+      "status": "Published",
+      "_id": "6afc99a4545c1f60095a3cea",
+      "createdAt": "2026-11-17T18:15:00.417Z"
+    }
+  ],
+  "events": [
+    {
+      "journeyId": "6afc960de00ff617d3db3e68",
+      "type": "Starting point",
+      "title": "Pre-Dawn Departure from BKC",
+      "timestamp": "2026-09-12T05:45:00.000Z",
+      "location": "Bandra Kurla Complex, Mumbai",
+      "coordinates": {
+        "lat": 19.0653,
+        "lng": 72.8681
+      },
+      "note": "Cabin pre-conditioned while plugged into home 11 kW AC wallbox. Zero traffic onto the Eastern Freeway.",
+      "photos": [
+        "/src/assets/images/ev_suv_garage_1794937948402.jpg"
+      ],
+      "sequenceIndex": 0,
+      "_id": "6afc960de00ff617d3db3e69"
+    },
+    {
+      "journeyId": "6afc960de00ff617d3db3e68",
+      "type": "Coffee stop",
+      "title": "Khandala Ghat Espresso Break",
+      "timestamp": "2026-09-12T07:30:00.000Z",
+      "location": "Lonavala Expressway Plaza",
+      "coordinates": {
+        "lat": 18.7557,
+        "lng": 73.4091
+      },
+      "note": "Light drizzle over the valley. Regenerative braking recovered 3% battery descending toward the food plaza.",
+      "photos": [],
+      "sequenceIndex": 1,
+      "_id": "6afc960de00ff617d3db3e6a"
+    },
+    {
+      "journeyId": "6afc960de00ff617d3db3e68",
+      "type": "Charging stop",
+      "title": "Pune Ring Hypercharger Top-Up",
+      "timestamp": "2026-09-12T09:15:00.000Z",
+      "location": "Wakad Highway Hub, Pune",
+      "coordinates": {
+        "lat": 18.5987,
+        "lng": 73.7688
+      },
+      "note": "Effortless 120 kW CCS2 plug-and-charge session while grabbing breakfast.",
+      "photos": [],
+      "sequenceIndex": 2,
+      "_id": "6afc960de00ff617d3db3e6b"
+    },
+    {
+      "journeyId": "6afc960de00ff617d3db3e68",
+      "type": "Scenic location",
+      "title": "Panchgani Tableland Mist Overlook",
+      "timestamp": "2026-09-12T12:10:00.000Z",
+      "location": "Tableland Plateau, Panchgani",
+      "coordinates": {
+        "lat": 17.9237,
+        "lng": 73.8007
+      },
+      "note": "Dense fog rolling across the basalt ridge. Silent electric torque made the steep 14% gradient effortless.",
+      "photos": [
+        "/src/assets/images/journey_mountain_pass_1794937948869.jpg"
+      ],
+      "sequenceIndex": 3,
+      "_id": "6afc960de00ff617d3db3e6d"
+    },
+    {
+      "journeyId": "6afc960de00ff617d3db3e68",
+      "type": "Destination",
+      "title": "Arrival at Arthur Seat Cliffside",
+      "timestamp": "2026-09-12T13:30:00.000Z",
+      "location": "Arthur Seat Point, Mahabaleshwar",
+      "coordinates": {
+        "lat": 17.9598,
+        "lng": 73.6335
+      },
+      "note": "Arrived with 58% SOC remaining and plenty of reserve for Sunday exploration.",
+      "photos": [],
+      "sequenceIndex": 4,
+      "_id": "6afc960de00ff617d3db3e6e"
+    },
+    {
+      "journeyId": "6afc960de00ff617d3db3e6f",
+      "type": "Starting point",
+      "title": "Coastal Dawn Rollout",
+      "timestamp": "2026-10-04T06:15:00.000Z",
+      "location": "Alibaug Seafront",
+      "coordinates": {
+        "lat": 18.6414,
+        "lng": 72.8722
+      },
+      "note": "Started at 98% SOC with 515 km predicted range on the dash.",
+      "photos": [
+        "/src/assets/images/ev_sedan_garage_1794937949633.jpg"
+      ],
+      "sequenceIndex": 0,
+      "_id": "6afc960de00ff617d3db3e70"
+    },
+    {
+      "journeyId": "6afc960de00ff617d3db3e6f",
+      "type": "Charging stop",
+      "title": "Chiplun NH-66 Fast Charge",
+      "timestamp": "2026-10-04T11:20:00.000Z",
+      "location": "Chiplun Highway Oasis",
+      "coordinates": {
+        "lat": 17.5323,
+        "lng": 73.5177
+      },
+      "note": "800V architecture pulled 175 kW peak on the dual-gun DC dispenser.",
+      "photos": [],
+      "sequenceIndex": 1,
+      "_id": "6afc960de00ff617d3db3e71"
+    },
+    {
+      "journeyId": "6afc960de00ff617d3db3e6f",
+      "type": "Hotel",
+      "title": "Cliffside Retreat Overnight",
+      "timestamp": "2026-10-04T17:40:00.000Z",
+      "location": "Ganpatipule Beachfront",
+      "coordinates": {
+        "lat": 17.1449,
+        "lng": 73.2665
+      },
+      "note": "Slow Type-2 AC destination charging overnight while watching the tide.",
+      "photos": [
+        "/src/assets/images/journey_coastal_overlook_1794937948348.jpg"
+      ],
+      "sequenceIndex": 2,
+      "_id": "6afc960de00ff617d3db3e73"
+    },
+    {
+      "journeyId": "6afc960de00ff617d3db3e6f",
+      "type": "Destination",
+      "title": "Ratnadurg Sunset Horizon",
+      "timestamp": "2026-10-05T17:50:00.000Z",
+      "location": "Ratnadurg Fort, Ratnagiri",
+      "coordinates": {
+        "lat": 16.9902,
+        "lng": 73.2756
+      },
+      "note": "Average trip efficiency settled at 14.1 kWh/100 km along the sea breeze.",
+      "photos": [
+        "/src/assets/images/hero_ev_roadtrip_1794937947563.jpg"
+      ],
+      "sequenceIndex": 3,
+      "_id": "6afc960de00ff617d3db3e74"
+    },
+    {
+      "journeyId": "6afc99a4545c1f60095a3ce2",
+      "type": "Starting point",
+      "title": "Manali Mall Road Rollout",
+      "timestamp": "2026-11-16T05:30:00.000Z",
+      "location": "Manali, Himachal Pradesh",
+      "coordinates": {
+        "lat": 32.2432,
+        "lng": 77.1892
+      },
+      "note": "Pre-heated cabin while plugged in. Clear skies ahead of Atal Tunnel.",
+      "photos": [],
+      "sequenceIndex": 0,
+      "_id": "6afc99a4545c1f60095a3ce3"
+    },
+    {
+      "journeyId": "6afc99a4545c1f60095a3ce2",
+      "type": "Charging stop",
+      "title": "Keylong AC Destination Top-Up",
+      "timestamp": "2026-11-16T09:15:00.000Z",
+      "location": "Keylong, Lahaul",
+      "coordinates": {
+        "lat": 32.5712,
+        "lng": 77.032
+      },
+      "note": "That charger had a 5-minute queue — worth the chai stop overlooking the valley.",
+      "photos": [],
+      "sequenceIndex": 1,
+      "_id": "6afc99a4545c1f60095a3ce4"
+    },
+    {
+      "journeyId": "6afc99a4545c1f60095a3ce2",
+      "type": "Scenic location",
+      "title": "Kunzum Pass Ridge",
+      "timestamp": "2026-11-16T14:20:00.000Z",
+      "location": "Kunzum La, Spiti",
+      "coordinates": {
+        "lat": 32.3991,
+        "lng": 77.6382
+      },
+      "note": "Regen recovered 11% SOC descending toward Losar.",
+      "photos": [
+        "/src/assets/images/journey_mountain_pass_1794937948869.jpg"
+      ],
+      "sequenceIndex": 2,
+      "_id": "6afc99a4545c1f60095a3ce6"
+    },
+    {
+      "journeyId": "6afc99a4545c1f60095a3ce2",
+      "type": "Destination",
+      "title": "Arrival in Kaza",
+      "timestamp": "2026-11-16T17:10:00.000Z",
+      "location": "Kaza Town, Spiti",
+      "coordinates": {
+        "lat": 32.2276,
+        "lng": 78.0717
+      },
+      "note": "Zero range anxiety thanks to downhill regen.",
+      "photos": [],
+      "sequenceIndex": 3,
+      "_id": "6afc99a4545c1f60095a3ce7"
+    }
+  ],
+  "chargingDetails": [
+    {
+      "_id": "6afc960de00ff617d3db3e6c",
+      "eventId": "6afc960de00ff617d3db3e6b",
+      "chargerName": "Statiq 120 kW Highway Hub",
+      "network": "Statiq",
+      "connectorType": "CCS2",
+      "chargingType": "DC",
+      "startSOC": 44,
+      "endSOC": 84,
+      "energyKwh": 45.6,
+      "durationMinutes": 28,
+      "cost": 980,
+      "rating": 5,
+      "review": "Clean bay, zero queue, sustained 112 kW peak curve up to 75% SOC."
+    },
+    {
+      "_id": "6afc960de00ff617d3db3e72",
+      "eventId": "6afc960de00ff617d3db3e71",
+      "chargerName": "Tata Power EZ Charge 180 kW",
+      "network": "Tata Power",
+      "connectorType": "CCS2",
+      "chargingType": "DC",
+      "startSOC": 21,
+      "endSOC": 80,
+      "energyKwh": 45.7,
+      "durationMinutes": 21,
+      "cost": 915,
+      "rating": 4.8,
+      "review": "Rapid 800V session, cafe right beside the charging bay."
+    },
+    {
+      "_id": "6afc99a4545c1f60095a3ce5",
+      "eventId": "6afc99a4545c1f60095a3ce4",
+      "chargerName": "Statiq Lahaul Hub",
+      "network": "Statiq",
+      "connectorType": "CCS2",
+      "chargingType": "DC",
+      "startSOC": 34,
+      "endSOC": 88,
+      "energyKwh": 27.2,
+      "durationMinutes": 42,
+      "cost": 680,
+      "rating": 4.5,
+      "review": "Steady 35 kW delivery even at 3,000m elevation."
+    }
+  ],
+  "follows": [
+    {
+      "_id": "6afc99a4545c1f60095a3ceb",
+      "followerId": "6afc960de00ff617d3db3e65",
+      "followingId": "6afc99a4545c1f60095a3cd8",
+      "createdAt": "2026-11-17T18:15:00.418Z"
+    },
+    {
+      "_id": "6afc99a4545c1f60095a3cec",
+      "followerId": "6afc960de00ff617d3db3e65",
+      "followingId": "6afc99a4545c1f60095a3cd9",
+      "createdAt": "2026-11-17T18:15:00.418Z"
+    },
+    {
+      "_id": "6afc99a4545c1f60095a3ced",
+      "followerId": "6afc99a4545c1f60095a3cd8",
+      "followingId": "6afc960de00ff617d3db3e65",
+      "createdAt": "2026-11-17T18:15:00.419Z"
+    },
+    {
+      "_id": "6afc99a4545c1f60095a3cee",
+      "followerId": "6afc99a4545c1f60095a3cda",
+      "followingId": "6afc960de00ff617d3db3e65",
+      "createdAt": "2026-11-17T18:15:00.419Z"
+    },
+    {
+      "_id": "6afc99a4545c1f60095a3cef",
+      "followerId": "6afc99a4545c1f60095a3cdb",
+      "followingId": "6afc99a4545c1f60095a3cd8",
+      "createdAt": "2026-11-17T18:15:00.420Z"
+    },
+    {
+      "_id": "6afc99a4545c1f60095a3cf0",
+      "followerId": "6afc99a4545c1f60095a3cdc",
+      "followingId": "6afc99a4545c1f60095a3cd8",
+      "createdAt": "2026-11-17T18:15:00.420Z"
+    },
+    {
+      "_id": "6afc99a4545c1f60095a3cf1",
+      "followerId": "6afc99a4545c1f60095a3cdd",
+      "followingId": "6afc99a4545c1f60095a3cd8",
+      "createdAt": "2026-11-17T18:15:00.421Z"
+    },
+    {
+      "_id": "6afc99a4545c1f60095a3cf2",
+      "followerId": "6afc99a4545c1f60095a3cd9",
+      "followingId": "6afc99a4545c1f60095a3cd8",
+      "createdAt": "2026-11-17T18:15:00.421Z"
+    }
+  ],
+  "journeyLikes": [
+    {
+      "_id": "6afc99a4545c1f60095a3cf4",
+      "journeyId": "6afc99a4545c1f60095a3ce2",
+      "userId": "6afc99a4545c1f60095a3cd9",
+      "createdAt": "2026-11-17T18:15:00.423Z"
+    },
+    {
+      "_id": "6afc99a4545c1f60095a3cf5",
+      "journeyId": "6afc99a4545c1f60095a3ce2",
+      "userId": "6afc99a4545c1f60095a3cda",
+      "createdAt": "2026-11-17T18:15:00.423Z"
+    },
+    {
+      "_id": "6afc99a4545c1f60095a3cf6",
+      "journeyId": "6afc99a4545c1f60095a3ce2",
+      "userId": "6afc99a4545c1f60095a3cdb",
+      "createdAt": "2026-11-17T18:15:00.424Z"
+    },
+    {
+      "_id": "6afc99a4545c1f60095a3cf7",
+      "journeyId": "6afc99a4545c1f60095a3ce2",
+      "userId": "6afc99a4545c1f60095a3cdc",
+      "createdAt": "2026-11-17T18:15:00.424Z"
+    },
+    {
+      "_id": "6afc99a4545c1f60095a3cf8",
+      "journeyId": "6afc99a4545c1f60095a3ce2",
+      "userId": "6afc99a4545c1f60095a3cdd",
+      "createdAt": "2026-11-17T18:15:00.425Z"
+    },
+    {
+      "_id": "6afc99a4545c1f60095a3cf9",
+      "journeyId": "6afc99a4545c1f60095a3ce8",
+      "userId": "6afc960de00ff617d3db3e65",
+      "createdAt": "2026-11-17T18:15:00.425Z"
+    },
+    {
+      "_id": "6afc99a4545c1f60095a3cfa",
+      "journeyId": "6afc99a4545c1f60095a3ce9",
+      "userId": "6afc960de00ff617d3db3e65",
+      "createdAt": "2026-11-17T18:15:00.426Z"
+    },
+    {
+      "_id": "6afc99a4545c1f60095a3cfb",
+      "journeyId": "6afc99a4545c1f60095a3cea",
+      "userId": "6afc960de00ff617d3db3e65",
+      "createdAt": "2026-11-17T18:15:00.426Z"
+    },
+    {
+      "_id": "6afc99a4545c1f60095a3cfc",
+      "journeyId": "6afc99a4545c1f60095a3ce8",
+      "userId": "6afc99a4545c1f60095a3cd8",
+      "createdAt": "2026-11-17T18:15:00.427Z"
+    },
+    {
+      "_id": "6afc99a4545c1f60095a3cfd",
+      "journeyId": "6afc99a4545c1f60095a3ce9",
+      "userId": "6afc99a4545c1f60095a3cd8",
+      "createdAt": "2026-11-17T18:15:00.427Z"
+    },
+    {
+      "_id": "6afc99a4545c1f60095a3cfe",
+      "journeyId": "6afc99a4545c1f60095a3cea",
+      "userId": "6afc99a4545c1f60095a3cd8",
+      "createdAt": "2026-11-17T18:15:00.428Z"
+    },
+    {
+      "_id": "6afc99a4545c1f60095a3cff",
+      "journeyId": "6afc99a4545c1f60095a3ce8",
+      "userId": "6afc99a4545c1f60095a3cda",
+      "createdAt": "2026-11-17T18:15:00.428Z"
+    },
+    {
+      "_id": "6afc99a4545c1f60095a3d00",
+      "journeyId": "6afc99a4545c1f60095a3ce9",
+      "userId": "6afc99a4545c1f60095a3cda",
+      "createdAt": "2026-11-17T18:15:00.429Z"
+    },
+    {
+      "_id": "6afc99a4545c1f60095a3d01",
+      "journeyId": "6afc99a4545c1f60095a3cea",
+      "userId": "6afc99a4545c1f60095a3cda",
+      "createdAt": "2026-11-17T18:15:00.429Z"
+    },
+    {
+      "_id": "6afc99cb545c1f60095a3d06",
+      "journeyId": "6afc99a4545c1f60095a3ce2",
+      "userId": "6afc960de00ff617d3db3e65",
+      "createdAt": "2026-11-17T18:15:39.008Z"
+    }
+  ],
+  "journeySaves": [],
+  "journeyComments": [
+    {
+      "_id": "6afc99a4545c1f60095a3d02",
+      "journeyId": "6afc99a4545c1f60095a3ce2",
+      "userId": "6afc99a4545c1f60095a3cd9",
+      "parentId": null,
+      "text": "That charger had a 5-minute queue when I went too — worth the chai stop.",
+      "createdAt": "2026-11-17T18:15:00.430Z"
+    },
+    {
+      "_id": "6afc99a4545c1f60095a3d03",
+      "journeyId": "6afc99a4545c1f60095a3ce2",
+      "userId": "6afc99a4545c1f60095a3cd8",
+      "parentId": "6afc99a4545c1f60095a3d02",
+      "text": "Expressway up, old road back. Worth the slow way home.",
+      "createdAt": "2026-11-17T18:15:00.431Z"
+    },
+    {
+      "_id": "6afc99a4545c1f60095a3d04",
+      "journeyId": "6afc99a4545c1f60095a3ce2",
+      "userId": "6afc99a4545c1f60095a3cda",
+      "parentId": null,
+      "text": "How was the AC on the incline? My ZS EV drops range pretty fast on those climbs.",
+      "createdAt": "2026-11-17T18:15:00.431Z"
+    },
+    {
+      "_id": "6afc99df545c1f60095a3d07",
+      "journeyId": "6afc99a4545c1f60095a3ce2",
+      "userId": "6afc960de00ff617d3db3e65",
+      "parentId": null,
+      "text": "Great climb report!",
+      "createdAt": "2026-11-17T18:15:59.945Z"
+    }
+  ],
+  "commentLikes": []
+}
